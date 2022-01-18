@@ -1,0 +1,35 @@
+body{
+    background-image: url('./images/img_2.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    height: 215px;
+    width:210px;
+    margin-top: 10px;
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
